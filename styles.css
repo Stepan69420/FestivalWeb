@@ -161,12 +161,15 @@ header {
     padding: 16px 0 16px 0;
 }
 
+footer {
+    background: black;
+}
+
 .social-icons {
     font-size: 32px;
     display: flex;
     gap: 30px;
     justify-content: center;
-    background: black;
 }
 
 .fa-facebook-f {
@@ -201,3 +204,11 @@ header {
     font-size: 15px;
 }
 
+.footer-link a:hover {
+    color: gray;
+}
+
+.footer-link a {
+    color: white;
+    text-decoration: none;
+}
