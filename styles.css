@@ -1,5 +1,6 @@
 ﻿* {
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
 body
@@ -163,6 +164,7 @@ header {
 
 footer {
     background: black;
+    padding: 50px 0 16px 0;
 }
 
 .social-icons {
@@ -211,4 +213,59 @@ footer {
 .footer-link a {
     color: white;
     text-decoration: none;
+}
+
+.contact-container {
+    text-align: left;
+    margin: 50px 0 50px 0;
+}
+
+#contact-form {
+    width: 25%;
+    margin: auto;
+}
+
+#contact2 {
+    text-align: center;
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+input[type="button"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 22px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: black;
+    color: white;
+}
+
+input[type="button"]:hover {
+    background-color: white;
+    color: black;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+    height: 150px;
+    padding: 8px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+label {
+    font-size: 22px;
+    text-align: left;
 }
