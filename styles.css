@@ -282,12 +282,11 @@ label {
     width: 10%;
     border-radius: 20%;
     display: block;
-    margin: 10px;
+    margin-top: 50px;
 }
 
 .ticket {
     border-top: 1px solid black;
-
 }
 
 .ticket h2 {
@@ -295,4 +294,6 @@ label {
     position: relative;
     left: 1000px;
 }
+ .vstupenky {
 
+ }
